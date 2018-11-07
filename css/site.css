@@ -1,0 +1,79 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	background: #8ab8a7;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+h1 {
+    border-bottom: 1px solid white;
+    padding: 20px 0px;
+}
+
+.BarChart {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+	background: #8ab8a7;
+    border-radius: 5px;
+	margin: 45px auto;
+}
+
+.bar {
+	color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background: #6d8d82;
+	border-radius: 3px;
+	flex-grow: 1;
+	font-size: 1em;
+}
+
+.bar:hover {
+    border: 1px solid white;
+    transition-duration: 0s;
+}
+
+.BarChart-USD {
+    height: 250px;
+    align-self: flex-end;
+}
+
+.BarChart-CAD {
+    height: 327px;
+    align-self: flex-end;
+}
+
+.BarChart-AUD {
+    height: 347px;
+    align-self: flex-end;
+}
+
+.BarChart-EUR {
+    height: 219px;
+    align-self: flex-end;
+}
+
+.BarChart-SGD {
+    height: 343px;
+    align-self: flex-end;
+}
+
+/*
+
+Color palette for future reference:
+
+background = #8ab8a7
+odd bars = #6d8d82
+even bars = #6c9997 
+header = #52767b
+
+*/
